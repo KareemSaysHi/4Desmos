@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LiberationSans SDF - Metalic Green
+  m_Shader: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+  m_Parent: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - OUTLINE_ON
+  - UNDERLAY_ON
+  m_InvalidKeywords:
+  - BEVEL_ON
+  - GLOW_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _FaceTex:
+        m_Texture: {fileID: 2800000, guid: 283f897e4925411ebbaa758b4cb13fc2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OutlineTex:
+        m_Texture: {fileID: 2800000, guid: f88677df267a41d6be1e7a6133e7d227, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Ambient: 0
+    - _Bevel: 1
+    - _BevelClamp: 0.617
+    - _BevelOffset: -0.01
+    - _BevelRoundness: 1
+    - _BevelWidth: 0.071
+    - _Diffuse: 0
+    - _FaceDilate: 0.15
+    - _GlowInner: 0.136
+    - _GlowOffset: 0.427
+    - _GlowOuter: 0.062
+    - _GlowPower: 0.941
+    - _OutlineWidth: 0.219
+    - _PerspectiveFilter: 0
+    - _Reflectivity: 12.76
+    - _ScaleRatioB: 0.6525
+    - _ScaleRatioC: 0.6525
+    - _SpecularPower: 1
+    - _UnderlaySoftness: 0.2
+    m_Colors:
+    - _ClipRect: {r: -10000, g: -10000, b: 10000, a: 10000}
+    - _FaceColor: {r: 0, g: 0.75735635, b: 0, a: 1}
+    - _MaskCoord: {r: 0, g: 0, b: 100000, a: 100000}
+    - _OutlineColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularColor: {r: 0.7689687, g: 1, b: 0.75000346, a: 1}
+  m_BuildTextureStacks: []
